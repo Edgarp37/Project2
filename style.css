@@ -64,6 +64,71 @@ div#main {
     text-align: center;
 }
 
+div.gallery {
+    margin-left: 60px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 45%;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.skater-stats {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.goalie-stats {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    font-weight: bold;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+.player {
+    padding: 10px;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+form {
+    background-color: gray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
 div#footer {
     background-color: black;
     color: white;
