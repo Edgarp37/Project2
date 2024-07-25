@@ -68,6 +68,35 @@ div#main {
     text-align: center;
 }
 
+.accordion-button {
+    background-color: dimgray;
+    color: white;
+    border: 1px solid black;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: black;
+    color: white;
+}
+
+.accordion-body {
+    background-color: gray;
+    color: black;
+}
+
+.accordion-collapse {
+    border: 1px solid black;
+}
+
+.card-group {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: lightgray;
+}
+
 div.gallery {
     display: inline-block;
     background-color: darkgray;

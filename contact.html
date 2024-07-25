@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="outer">
+    <div id="header">
+        <img src="KingsKingdom.png" alt="Kings Kingdom header title" style="width: 650px;height: 180px;">
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="latestnews.html">Latest News</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="main">
+        <h2>Contact Us</h2>
+        <form action="mailto:kingskingdom@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="favoritePlayer">Favorite Player:</label><br>
+            <input type="text" id="favoritePlayer" name="favoritePlayer"><br><br>
+
+            <label for="favoriteMoment">Favorite Kings Moment:</label><br>
+            <textarea id="favoriteMoment" name="favoriteMoment" rows="4" cols="50"></textarea><br><br>
+
+            <label for="feedback">Feedback:</label><br>
+            <select id="feedback" name="feedback">
+                <option value="suggestion">Suggestion</option>
+                <option value="comment">Comment</option>
+                <option value="question">Question</option>
+            </select><br><br>
+
+            <textarea id="additionalDetails" name="additionalDetails" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset"><br><br>
+        </form>
+    </div>
+
+    <div id="footer">
+        <p>last updated July 19, 2024</p>
+    </div>
+</div>
+</body>
+</html>
