@@ -69,7 +69,7 @@ div#main {
 }
 
 .accordion-button {
-    background-color: dimgray;
+    background-color: rgb(91, 91, 91);
     color: white;
     border: 1px solid black;
 }
