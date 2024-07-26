@@ -17,8 +17,12 @@ div#outer {
 
 div#header {
     background-color: black;
-    text-align: center;
     grid-area: header;
+    text-align: center;
+}
+
+#header img {
+    margin-left: 300px;
 }
 
 div#nav {
@@ -103,7 +107,7 @@ div.gallery {
     margin: 15px;
     border: 2px solid black;
     border-radius: 10px;
-    width: 600px;
+    width: 500px;
 }
 
 div.gallery:hover {
@@ -115,14 +119,12 @@ div.gallery:hover {
 
 div.gallery img {
     width: 100%;
-    height: 400px;
+    height: 280px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
 
 div.desc {
-    font-weight: bold;
-    font-size: 20px;
     padding: 15px;
     text-align: center;
 }
@@ -132,7 +134,7 @@ div.desc {
     grid-template-columns: repeat(6, 1fr);
     gap: 10px;
     padding: 20px;
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
 }
 
@@ -141,7 +143,7 @@ div.desc {
     grid-template-columns: repeat(6, 1fr);
     gap: 10px;
     padding: 20px;
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
 }
 
@@ -198,6 +200,18 @@ input[type="submit"]:active, input[type="reset"]:active {
 
 div#footer {
     background-color: black;
-    color: white;
     grid-area: footer;
+    padding: 8px;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-media-icons a {
+    text-decoration: none;
+    font-size: 25px;
 }
